@@ -1,0 +1,43 @@
+I. Tablica 10 elementów typu int różni się od 10 obiektów typu int:
+- nie trzeba każdego obiektu nazywać inaczej
+- zajmuje ciągły obszar w pamięci
+
+II. Tablice można utworzyć z elementów tylko jednego typu.
+
+III. unsigned int tab[200] - tab jest tablicą 200 elementów typu unsigned int.
+
+IV.
+a) double wspolcz[5.6] = niepoprawna (ilość elementów musi być liczbą całkowitą)
+b) double fact[0] = niepoprawna (ilość elementów musi być stałą całkowitą większą od zera)
+c) signed int nomin[-6] = niepoprawna (j.w.)
+
+V. int rozmiar = 10; char tab[rozmiar]; = poprawna, gdyż ilość elementów jest już znana w czasie kompilacji.
+
+VI. tablica 12 elementów typu double: double tabl[12];
+
+VII. void tab[237]; = niepoprawny, nie można tworzyć z typu void
+
+VIII. enum (zadanie)
+
+IX. char alfabet[30]; znaki są zakodowane w ASCII, czyli w reprezentacji liter jako liczby. Jedna litera typu char zajmuje 8 bitów.
+
+X. Znak null jest znakiem końca C-stringu. Jest po to, aby oznaczyć zakończenie ciągu liter.
+
+XI. char tabl[14] = { "programowanie" };
+
+XII. char tabl[3] = { 'x', 'y', 'z' };
+
+XIII. tablica char tab[] = { "123" }; ma 4 elementy (123+znak null). Długość stringu to 3 znaki.
+
+XIV. Długość C-stringu to ilość liter należących do niego. Rozmiar C-stringu jest większy o 1 (znak null).
+
+XV.
+a) char tab1[4] = { "1,2,3" }; - niepoprawna (przecinki w C-stringu to też znak)
+b) char tab2[] = { "1,2,3" }; - poprawna
+c) char tab3[3] = { 'A', 'B', 'C' }; - poprawna
+
+XX. Elementy tablic mogą być dowolne poza znakiem null.
+
+XXI. String z tablicy t1 można przepisać do t3, ale nie do t2.
+
+XXII. W funkcji do ktorej wysłano tablicę można dowiedzieć się ile ma elementów, jeśli policzy się wszystkie znaki aż do końca null.
