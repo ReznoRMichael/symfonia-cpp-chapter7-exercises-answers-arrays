@@ -41,3 +41,34 @@ XX. Elementy tablic mogą być dowolne poza znakiem null.
 XXI. String z tablicy t1 można przepisać do t3, ale nie do t2.
 
 XXII. W funkcji do ktorej wysłano tablicę można dowiedzieć się ile ma elementów, jeśli policzy się wszystkie znaki aż do końca null.
+
+XXIII. Function to append a string to another string (program)
+
+XXIV. float tab[5][2]
+
+XXV. char t[4][2][2] - wypisz w kolejności przechowywania w pamięci:
+
+t[0][0][0]
+t[0][0][1]
+t[0][1][0]
+t[0][1][1]
+
+t[1][0][0]
+t[1][0][1]
+t[1][1][0]
+t[1][1][1]
+
+t[2][0][0]
+t[2][0][1]
+t[2][1][0]
+t[2][1][1]
+
+t[3][0][0]
+t[3][0][1]
+t[3][1][0]
+t[3][1][1]
+
+XXVI. Program for 2-level array (program)
+
+XXVII. double tab[10][5][30];
+Do obliczania pozycji w pamięci nie jest potrzebny rozmiar najbardziej z lewej strony (10). Rozmiar który nie jest konieczny do obliczania może być pomocny dla programisty, a także w celu przesłania jednej konkretnej tablicy do funkcji (zamiast całej tablicy).
