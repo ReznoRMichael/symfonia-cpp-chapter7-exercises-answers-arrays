@@ -72,3 +72,12 @@ XXVI. Program for 2-level array (program)
 
 XXVII. double tab[10][5][30];
 Do obliczania pozycji w pamięci nie jest potrzebny rozmiar najbardziej z lewej strony (10). Rozmiar który nie jest konieczny do obliczania może być pomocny dla programisty, a także w celu przesłania jednej konkretnej tablicy do funkcji (zamiast całej tablicy).
+
+XXVIII. double tab[10][5][30];
+wyrażenia:
+tab[1][0][1] - oznacza jeden konkretny element/obiekt/zmienną typu double (jej wartość)
+tab[6][4] - oznacza adres w pamięci początku jednej konkretnej tablicy obiektów typu double
+tab[1] - oznacza adres w pamięci początku jednej konkretnej tablicy tablic obiektów typu double
+tab - oznacza adres w pamięci początku całej tablicy tablic obiektów typu double
+
+XXIX. double tab[10][5][30]; program - funkcja zerująca wszystkie elementy tej tablicy (program)
