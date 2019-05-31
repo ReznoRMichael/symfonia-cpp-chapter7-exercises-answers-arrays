@@ -81,3 +81,5 @@ tab[1] - oznacza adres w pamięci początku jednej konkretnej tablicy tablic obi
 tab - oznacza adres w pamięci początku całej tablicy tablic obiektów typu double
 
 XXIX. double tab[10][5][30]; program - funkcja zerująca wszystkie elementy tej tablicy (program)
+
+XXX. Funkcja do analizy binarnej numerów elementów tablicy (program) - save for later
